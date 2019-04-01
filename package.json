@@ -1,0 +1,26 @@
+{
+  "name": "cucumberjsbasics",
+  "version": "1.0.0",
+  "description": "npm init  - package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generateCucumberReport": ".\\node_modules\\.bin\\cucumber-js --format=json:cucumber_report.json && node index.js",
+    "protractorCucumberTest": "protractor protractor.conf.js"
+  },
+  "author": "Predrag Popovic",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^5.1.0",
+    "properties-reader": "0.0.16"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^4.0.5",
+    "jasmine": "^3.3.1",
+    "protractor": "^6.0.0",
+    "protractor-cucumber-framework": "^6.1.1",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.0"
+  }
+}
