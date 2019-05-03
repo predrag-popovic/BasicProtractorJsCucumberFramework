@@ -20,7 +20,7 @@ Automation Basic Framework in order to work properly uses a number of dependenci
 
 * [NodeJS](https://nodejs.org/en/) - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
 * [Protractor](https://www.protractortest.org/) - Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
-* [Cucmber](https://docs.cucumber.io/) - Behaviour-Driven Development (BDD).
+* [Cucumber](https://docs.cucumber.io/) - Behaviour-Driven Development (BDD).
 * [Selenium](https://www.seleniumhq.org/download/) - Selenium has the support of some of the largest browser
 * [Selenium Grid](https://www.seleniumhq.org/docs/07_selenium_grid.jsp) - Selenium-Grid allows you run your tests on different machines against different browsers in parallel.
 
